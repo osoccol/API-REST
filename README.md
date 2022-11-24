@@ -6,6 +6,9 @@ Si le terminal vous retourne une version, vous pouvez exécuter le programme en 
 
 Par défaut, le port utilisé est le port 3000.
 
+Vous pouvez modifier le port en lançant la commande " PORT=3001 node server.js " dans un terminal.
+De la même façon que le port est ajouté dans des variables d'environnement, ajoutez le CLIENT_ID (Google Identity Client ID), ainsi que vos informations sensibles.
+
 Vous pouvez vérifier le fonctionnement de l'API depuis:
 - la barre d'URL du navigateur (pour les requêtes GET)
 - soapUI ou Postman
